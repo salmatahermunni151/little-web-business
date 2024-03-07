@@ -8,8 +8,139 @@
     <!-- tailwind file link here  -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- font awesome link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    
+    <header class="w-full h-screen bg-no-repeat bg-center bg-cover" style="background-image:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.404)), url(./image/banner-1.jpg);">
+        <nav class="bg-[#ffffff8a]">
+
+            <div class="container mx-auto flex flex-row justify-between items-center py-3 px-4">
+                <!-- logo  -->
+                <div>
+                    <img src="./image/logo.svg" alt="">
+                </div>
+                <!-- nav itams  -->
+                <ul class="flex flex-row space-x-7">
+                    <li class="text-xl font-semibold">Home</li>
+                    <li class="text-xl font-semibold">About</li>
+                    <li class="text-xl font-semibold lg:block md:block hidden">Pricing</li>
+                    <li class="text-xl font-semibold lg:block md:block hidden">Features</li>
+                </ul>
+
+                <!-- call items  -->
+
+                <div class="lg:flex md:flex hidden flex-row items-center space-x-2">
+                    <div>
+                        <i class="text-xl bg-blue-500 px-2 py-1 text-white rounded-full fa-solid fa-phone"></i>
+                    </div>
+                    <div class="font-semibold">
+                        <h2>Call Us</h2>
+                        <p class="text-lg">360-779-2228</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section code start  -->
+        <div class="lg:pt-28 md:pt-20 pt-10 lg:pl-20 md:pl-16 pl-0">
+
+            <div class="bg-white lg:w-[540px] md:w-[50%] w-[90%] lg:px-12 px-10 lg:py-8 py-4 lg:mx-0 md:mx-0 mx-auto">
+                <h4 class="text-blue-600 font-semibold lg:text-lg text-base">Your Business Revenue to The Moon</h4>
+                <h2 class="lg:text-4xl md:text-2xl text-xl font-bold text-gray-800 mt-2">Corporate & Business Site Template By TailGrids.</h2>
+                <p class="text-gray-600 font-semibold lg:text-lg text-base mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                <button class="bg-blue-600 hover:bg-blue-800 text-white font-semibold px-5 py-3 mr-4 lg:mb-0 md:mb-3 mb-4">Discover More</button>
+                <button class="border-4 border-blue-500 hover:text-blue-500 font-semibold px-3 py-2">Explore Services</button>
+            </div>
+
+        </div>
+    </header>
+    <!-- main section code start here  -->
+    <main>
+        <!-- choose section code start  -->
+
+        <section class="container mx-auto my-32 px-4">
+
+            <div class="flex lg:flex-row md:flex-row flex-col items-center justify-center lg:space-x-20 md:space-x-10 space-x-0">
+
+                <!-- image div  -->
+
+                <div class="flex flex-row items-center space-x-6 lg:mb-0 md:mb-0 mb-8">
+                    <div>
+                        <div class="mb-6">
+                            <img src="./image/choose-1.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="./image/choose-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./image/choose-3.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- text div  -->
+
+                <div class=" lg:w-[630px] md:w-[50%] w-[100%] lg:text-left md:text-left text-center">
+                    <h4 class="text-blue-600 font-semibold lg:text-xl text-base">Why Choose Us</h4>
+                    <h2 class="lg:text-4xl text-3xl font-bold text-gray-800 mt-6">Make your customers happy by giving services.</h2>
+                    <p class="text-gray-700 font-semibold lg:text-lg text-base my-8">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less. <br><br>
+                    A domain name is one of the first steps to establishing your brand. Secure a consistent brand image with a domain name that matches your business. </p>
+                    <button class="bg-blue-600 hover:bg-blue-800 text-white font-semibold px-5 py-3 rounded-md">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section code start here  -->
+
+        <section class="container mx-auto mb-32 px-4">
+
+            <div class="text-center">
+                <h4 class="text-blue-600 font-semibold text-lg">Our Services</h4>
+                <h2 class="text-4xl font-bold text-gray-800 mt-2">What We Offer</h2>
+                <p class="text-gray-500 font-medium text-lg mt-5">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-20 gap-x-32 gap-y-10">
+
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-regular fa-snowflake"></i>
+                    <h2 class="text-2xl font-semibold py-6">Refreshing Design</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+                
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-solid fa-hippo"></i>
+                    <h2 class="text-2xl font-semibold py-6">Based on Tailwind CSS</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-brands fa-codepen"></i>
+                    <h2 class="text-2xl font-semibold py-6">100+ Components</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-solid fa-gauge-simple"></i>
+                    <h2 class="text-2xl font-semibold py-6">Speed Optimized</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-solid fa-layer-group"></i>
+                    <h2 class="text-2xl font-semibold py-6">Fully Customizable</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+
+                <div class="hover:shadow-2xl duration-300 pb-9">
+                    <i class="bg-blue-600 px-4 py-3 text-white text-3xl rounded-lg fa-solid fa-rotate"></i>
+                    <h2 class="text-2xl font-semibold py-6">Regular Updates</h2>
+                    <p class="text-base text-gray-500">We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

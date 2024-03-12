@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Little Web Business</title>
 
     <!-- tailwind file link here  -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -24,7 +24,7 @@
                 <!-- nav itams  -->
                 <ul class="flex flex-row space-x-7">
                     <li class="text-xl font-semibold">Home</li>
-                    <li class="text-xl font-semibold">About</li>
+                    <li class="text-xl font-semibold lg:block md:block hidden">About</li>
                     <li class="text-xl font-semibold lg:block md:block hidden">Pricing</li>
                     <li class="text-xl font-semibold lg:block md:block hidden">Features</li>
                 </ul>
@@ -50,8 +50,8 @@
                 <h4 class="text-blue-600 font-semibold lg:text-lg text-base">Your Business Revenue to The Moon</h4>
                 <h2 class="lg:text-4xl md:text-2xl text-xl font-bold text-gray-800 mt-2">Corporate & Business Site Template By TailGrids.</h2>
                 <p class="text-gray-600 font-semibold lg:text-lg text-base mt-5 mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                <button class="bg-blue-600 hover:bg-blue-800 text-white font-semibold px-5 py-3 mr-4 lg:mb-0 md:mb-3 mb-4">Discover More</button>
-                <button class="border-4 border-blue-500 hover:text-blue-500 font-semibold px-3 py-2">Explore Services</button>
+                <button class="bg-blue-600 hover:bg-blue-800 text-white font-semibold lg:px-5 px-4 lg:py-3 py-2 mr-4 lg:mb-0 mb-3">Discover More</button>
+                <button class="border-4 border-blue-500 hover:text-blue-500 font-semibold lg:px-3 px-2 lg:py-2 py-1">Explore Services</button>
             </div>
 
         </div>
@@ -60,7 +60,7 @@
     <main>
         <!-- choose section code start  -->
 
-        <section class="container mx-auto my-32 px-4">
+        <section class="container mx-auto my-32 px-6">
 
             <div class="flex lg:flex-row md:flex-row flex-col items-center justify-center lg:space-x-20 md:space-x-10 space-x-0">
 
@@ -94,12 +94,12 @@
 
         <!-- Services section code start here  -->
 
-        <section class="container mx-auto mb-32 px-4">
+        <section class="container mx-auto mb-32 px-6">
 
             <div class="text-center">
                 <h4 class="text-blue-600 font-semibold text-lg">Our Services</h4>
-                <h2 class="text-4xl font-bold text-gray-800 mt-2">What We Offer</h2>
-                <p class="text-gray-500 font-medium text-lg mt-5">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+                <h2 class="text-4xl font-bold text-gray-800 mt-1">What We Offer</h2>
+                <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
             </div>
 
             <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-20 gap-x-32 gap-y-10">
@@ -141,6 +141,467 @@
                 </div>
             </div>
         </section>
+
+        <!-- Portfolio section code start  -->
+        <section class="container mx-auto mb-32 px-4 w-full">
+            <!-- title div  -->
+            <div class="text-center">
+                <h4 class="text-blue-600 font-semibold text-lg">Our Portfolio</h4>
+                <h2 class="text-4xl font-bold text-gray-800 mt-1">Our Recent Projects</h2>
+                <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+            </div>
+
+            <!-- Portfolio ul  -->
+            <div class="lg:block md:block hidden">
+                <ul class="flex flex-row space-x-8 justify-center items-center mt-14">
+                    <li class="text-base font-bold text-white bg-blue-600 px-4 py-2 rounded-lg cursor-pointer">All Projects</li>
+                    <li class="text-lg font-bold text-slate-600 hover:text-white hover:bg-blue-600 px-4 py-2 rounded-lg cursor-pointer">Branding</li>
+                    <li class="text-lg font-bold text-slate-600 hover:text-white hover:bg-blue-600 px-4 py-2 rounded-lg cursor-pointer">Design</li>
+                    <li class="text-lg font-bold text-slate-600 hover:text-white hover:bg-blue-600 px-4 py-2 rounded-lg cursor-pointer">Marketing</li>
+                    <li class="text-lg font-bold text-slate-600 hover:text-white hover:bg-blue-600 px-4 py-2 rounded-lg cursor-pointer">Development</li>
+                </ul>
+            </div>
+
+            <!-- Portfolio card  -->
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center place-items-center lg:gap-x-10 md:gap-x-5 gap-x-0 gap-y-14 mt-16">
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[370px] md:w-[350px] w-[600px]" src="./image/project-image/project-01.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                    <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mr-6 mt-3">View Details</button>
+            </div>
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[370px] md:w-[350px] w-[600px]" src="./image/project-image/project-02.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mr-6 mt-3">View Details</button>
+            </div>
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[370px] md:w-[350px] w-[600px]" src="./image/project-image/project-03.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mr-6 mt-3">View Details</button>
+
+            </div>
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[370px] md:w-[350px] w-[600px]" src="./image/project-image/project-04.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mr-6 mt-3">View Details</button>
+
+            </div>
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[350px] md:w-[350px] w-[600px]" src="./image/project-image/project-05.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mr-6 mt-3">View Details</button>
+
+            </div>
+
+            <div class="text-center">
+                <div class="relative">
+                    <img class="lg:w-[350px] md:w-[350px] w-[600px]" src="./image/project-image/project-06.jpg" alt="">
+               
+                    <div class="absolute bottom-0 inset-x-12 py-2 bg-slate-300 rounded-t-xl ">
+                        <h4 class="text-base font-semibold text-blue-700">Branding</h4>
+                        <h3 class="lg:text-2xl md:text-2xl text-xl font-bold text-slate-900 py-1">Branding Design</h3>
+                    </div>
+                </div>
+
+                    <button class="text-base font-semibold text-slate-600 hover:text-white hover:bg-blue-600 px-6 py-2 rounded-lg cursor-pointer mt-3">View Details</button>
+            </div>
+             
+           </div>
+        </section>
+
+        <!-- team section code start here  -->
+
+        <section class="container mx-auto mb-32 px-6 w-full">
+             <!-- title div  -->
+             <div class="text-center">
+                <h4 class="text-blue-600 font-semibold text-lg">Our Team</h4>
+                <h2 class="text-4xl font-bold text-gray-800 mt-1">Our Awesome Team</h2>
+                <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+            </div>
+
+                <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 place-items-center gap-11 mt-16">
+
+                    <!-- first card  -->
+
+                    <div class="relative">
+                        <img class="w-96 rounded-lg" src="./image/team-image/team-01.jpg" alt="">
+
+                        <div class="absolute bottom-5 inset-x-5 bg-white rounded-xl text-center py-4">
+                            <h3 class="text-base font-semibold">Coriss Ambady</h3>
+                            <h4 class="text-xs text-gray-500">Web Developer</h4>
+                        </div>
+
+                    </div>
+
+                    <!-- second card  -->
+
+                    <div class="relative">
+                        <img class="w-96 rounded-lg" src="./image/team-image/team-02.jpg" alt="">
+
+                        <div class="absolute bottom-5 inset-x-5 bg-white rounded-xl text-center py-4">
+                            <h3 class="text-base font-semibold">Coriss Ambady</h3>
+                            <h4 class="text-xs text-gray-500">Web Developer</h4>
+                        </div>
+
+                    </div>
+
+                    <!-- third card  -->
+                    <div class="relative">
+                        <img class="w-96 rounded-lg" src="./image/team-image/team-03.jpg" alt="">
+
+                        <div class="absolute bottom-5 inset-x-5 bg-white rounded-xl text-center py-4">
+                            <h3 class="text-base font-semibold">Coriss Ambady</h3>
+                            <h4 class="text-xs text-gray-500">Web Developer</h4>
+                        </div>
+
+                    </div>
+
+                    <!-- fourth card  -->
+                    <div class="relative">
+                        <img class="w-96 rounded-lg" src="./image/team-image/team-04.jpg" alt="">
+
+                        <div class="absolute bottom-5 inset-x-5 bg-white rounded-xl text-center py-4">
+                            <h3 class="text-base font-semibold">Coriss Ambady</h3>
+                            <h4 class="text-xs text-gray-500">Web Developer</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+            
+        </section>
+
+        <!-- Pricing section code start here  -->
+        <section class="container mx-auto mb-32 px-6 w-full">
+            <!-- title div  -->
+            <div class="text-center">
+                <h4 class="text-blue-600 font-semibold text-lg">Pricing Table</h4>
+                <h2 class="text-4xl font-bold text-gray-800 mt-1">Our Pricing Plan</h2>
+                <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 lg:-space-x-8 md:-space-x-8 -space-x-0 lg:space-y-0 md:space-y-0 space-y-9 items-center mt-16">
+
+                <!-- first card  -->
+
+                <div class="space-y-7 text-center border-[1px] border-gray-400 py-16 h-[500px] rounded-lg">
+                    <div>
+                    <h3 class="text-base font-semibold">STARTING FROM</h3>
+                    <h2 class="text-3xl font-semibold text-blue-700 mt-1">€ 19.99/mo</h2>
+                    </div>
+
+                    <ul class="space-y-3 text-gray-500 text-base">
+                        <li>1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on 1 (one) project</li>
+                        <li>3 Months support</li>
+                    </ul>
+
+                    <button class="text-base font-semibold text-blue-600 hover:bg-blue-600 hover:text-white rounded-xl px-4 py-1">Purchase Now</button>
+                </div>
+
+                <!-- second card  -->
+
+                <div class="space-y-10 text-center border-[1px] bg-gradient-to-t to-blue-800 from-blue-500 text-white border-gray-400 py-16 h-[600px] rounded-lg z-10">
+                    <div>
+                    <h3 class="text-base font-semibold">STARTING FROM</h3>
+                    <h2 class="text-3xl font-semibol mt-1">€ 19.99/mo</h2>
+                    </div>
+
+                    <ul class="space-y-5 text-base">
+                        <li>1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on 1 (one) project</li>
+                        <li>3 Months support</li>
+                    </ul>
+
+                    <button class="text-base font-semibold bg-white  text-blue-600 rounded-xl px-4 py-1">Purchase Now</button>
+                </div>
+
+                <!-- third card  -->
+
+                <div class="space-y-7 text-center border-[1px] border-gray-400 py-16 h-[500px] rounded-lg">
+                    <div>
+                    <h3 class="text-base font-semibold">STARTING FROM</h3>
+                    <h2 class="text-3xl font-semibold text-blue-700 mt-1">€ 70.99/mo</h2>
+                    </div>
+
+                    <ul class="space-y-3 text-gray-500 text-base">
+                        <li>1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                        <li>Use on 1 (one) project</li>
+                        <li>3 Months support</li>
+                    </ul>
+
+                    <button class="text-base font-semibold text-blue-600 hover:bg-blue-600 hover:text-white rounded-xl px-4 py-1">Purchase Now</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Tailwind section code start here  -->
+        <section class="bg-gradient-to-r from-blue-900 to-blue-400 mb-32 px-6 w-full py-24">
+            <div class="container mx-auto flex lg:flex-row md:flex-row flex-col items-center justify-center lg:space-x-32 md:space-x-20 space-x-0 lg:text-left md:text-left text-center lg:space-y-0 md:space-y-0 space-y-14">
+                <div class="text-white text-4xl font-bold">
+                    <h2>Tailwind CSS UI Components <br> for Modern Web Apps</h2>
+                </div>
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5 ">
+                    <div>
+                        <img class="w-48" src="./image/graygrids-white.svg" alt="">
+                    </div>
+                    <div>
+                        <img class="w-48" src="./image/lineIcons-white.svg" alt="">
+                    </div>
+                    <div>
+                        <img class="w-48" src="./image/ayroui-white.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Blogs section code start here  -->
+
+        <section class="container mx-auto mb-32 px-6 w-full">
+            <!-- title div  -->
+            <div class="text-center mb-16">
+                <h4 class="text-blue-600 font-semibold text-lg">Our Blogs</h4>
+                <h2 class="text-4xl font-bold text-gray-800 mt-1">Our Recent News</h2>
+                <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 place-items-center">
+                <!-- first card  -->
+                <div>
+                    <div>
+                        <img class="lg:w-[350px] md:w-[350px] w-[600px]" src="./image/blogs/blog-1.jpg" alt="">
+                    </div>
+                    <div>
+                        <button class="bg-blue-700 text-white px-4 py-2 text-sm font-semibold rounded-md mt-8 mb-4"> Dec 22,2023</button>
+                        <h2 class="text-2xl font-semibold text-slate-800 hover:text-blue-600 cursor-pointer ">Meet AutoManage, The Best Ai mangement Tools</h2>
+                        <p class="mt-3 text-lg text-slate-600">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                    </div>
+                </div>
+                
+                <!-- second card  -->
+
+                <div>
+                    <div>
+                        <img class="lg:w-[350px] md:w-[350px] w-[600px]" src="./image/blogs/blog-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <button class="bg-blue-700 text-white px-4 py-2 text-sm font-semibold rounded-md mt-8 mb-4"> Dec 22,2023</button>
+                        <h2 class="text-2xl font-semibold text-slate-800 hover:text-blue-600 cursor-pointer ">How to earn more money as a wellness coach</h2>
+                        <p class="mt-3 text-lg text-slate-600">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                    </div>
+                </div>
+
+                <!-- third card  -->
+
+                <div>
+                    <div>
+                        <img class="lg:w-[350px] md:w-[350px] w-[600px]" src="./image/blogs/blog-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <button class="bg-blue-700 text-white px-4 py-2 text-sm font-semibold rounded-md mt-8 mb-4"> Dec 22,2023</button>
+                        <h2 class="text-2xl font-semibold text-slate-800 hover:text-blue-600 cursor-pointer ">The no-fuss guid to upselling and cross selling and cross</h2>
+                        <p class="mt-3 text-lg text-slate-600">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- App section code start here  -->
+        <section class="container mx-auto mb-32 px-6 w-full bg-gradient-to-r from-slate-900 to-slate-700 py-24 rounded-md">
+
+            <div class="flex flex-row justify-between items-center lg:mx-12 mx-9">
+
+                <div class="text-white">
+                    <h4>Find Your Next Dream App</h4>
+                    <h2 class="lg:text-5xl text-3xl font-semibold mt-2">Get started with <br> our free trial</h2>
+                </div>
+                <div class="space-x-3 lg:block md:block hidden">
+                    <button class="bg-slate-500 hover:bg-white hover:text-black lg:px-5 px-3 py-3 text-white font-semibold rounded-md">Get Pro Version</button>
+                    <button class="bg-blue-600 px-5  py-3 text-white font-semibold rounded-md">Start Free Trial</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- address section code start here  -->
+
+        <section class="container mx-auto mb-32 px-6 w-full">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-12">
+
+                <div class="text-center">
+                    <i class="text-5xl text-blue-600 pb-3 fa-regular fa-envelope"></i>
+                    <h2 class="text-lg font-semibold pb-1">Email Address</h2>
+                    <h3 class="text-gray-600 text-lg">info@example.com</h3>
+                    <h4 class="text-gray-600 text-lg">support@example.com</h4>
+                </div>
+
+                <div class="text-center">
+                    <i class="text-5xl text-blue-600 pb-3 fa-solid fa-phone-volume"></i>
+                    <h2 class="text-lg font-semibold pb-1">Phone Number</h2>
+                    <h3 class="text-gray-600 text-lg">+88 (800) 123 4567</h3>
+                    <h4 class="text-gray-600 text-lg">+99 094 5445 433</h4>
+                </div>
+
+                <div class="text-center">
+                    <i class="text-5xl text-blue-600 pb-3 fa-solid fa-location-dot"></i>
+                    <h2 class="text-lg font-semibold pb-1">Our Address</h2>
+                    <h3 class="text-gray-600 text-lg">82 12th Street, Office 14,</h3>
+                    <h4 class="text-gray-600 text-lg">Edinburgh, UK</h4>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- contact section code start here  -->
+
+        <section class="container mx-auto mb-32 px-6 w-full">
+        <!-- title div  -->
+        <div class="text-center mb-16">
+            <h4 class="text-blue-600 font-semibold text-lg">Contact Us</h4>
+            <h2 class="text-4xl font-bold text-gray-800 mt-1">How Can We Help You?</h2>
+            <p class="text-gray-500 font-medium text-lg mt-4">There are many variations of passages of Lorem Ipsum available <br> but the majority have suffered alteration in some form.</p>
+        </div>
+
+        <!-- input div  -->
+
+            <div class="">
+                <!-- name,email parent  -->
+               <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 items-center lg:gap-x-5 md:gap-x-5 gap-x-0 lg:gap-y-0 md:gap-y-0 gap-y mb-6">
+
+               <div>
+                <label for="User">Your Name</label><br><br>
+                <input class="w-full bg-transparent border-[1px] border-blue-600 py-3 px-3 rounded-md" type="text" name="User" id="" placeholder="Your Name">
+               </div>
+
+                <div>
+                <label for="user-mail">Your Email</label><br> <br>
+                <input class="w-full bg-transparent border-[1px] border-blue-600 py-3 px-3 rounded-md" type="email" name="user-mail" id="" placeholder="Your Email">
+                </div>
+
+               </div>
+
+               <!-- message div  -->
+                <div>
+                <label for="message">Your Message:</label><br> <br>
+                <input class="bg-transparent border-[1px] border-blue-600 w-full h-48 rounded-md" type="text" name="message" id="">
+                </div><br>
+                <p><input type="checkbox" name="" id=""> I agree that my submitted data is being collected and stored</p>
+            </div>
+            <!-- submit btn  -->
+            <div class="text-center mt-28">
+                <button class="bg-blue-500 hover:bg-blue-800 px-24 py-3 font-semibold text-white rounded-md">Submit</button>
+            </div>
+
+        </section>
+
     </main>
+
+    <footer class="bg-gradient-to-r from-blue-900 to-blue-400 text-white">
+        <div class="container mx-auto px-6 py-12 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:place-items-start md:place-items-start place-items-center lg:gap-y-0 md:gap--y-0 gap-y-12  lg:text-left md:text-left text-center">
+            <!-- first items  -->
+            <div>
+                <div>
+                    <img class="lg:mx-0 md:mx-0 mx-auto" src="./image/logo.svg" alt="">
+                </div>
+                <p class="mt-3">Lorem ipsum dolor amet consectetur adipiscing elit do eiusmod tempor incididunt ut labore et dolore.</p>
+                <div class="flex flex-row lg:justify-start md:justify-start justify-center space-x-4 text-xl mt-6">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+
+             <!-- second items  -->
+             <div class="lg:block hidden">
+                <h2 class="mb-3 text-3xl font-bold text-slate-900">Company</h2>
+                <ul class="space-y-3 text-lg font-semibold">
+                    <li>About company</li>
+                    <li>Company services</li>
+                    <li>Job opportunities</li>
+                    <li>Creative people</li>
+                    <li>Cintact us</li>
+                </ul>
+            </div>
+            <!-- third items  -->
+            <div class="lg:block hidden">
+                <h2 class="mb-3 text-3xl font-bold text-slate-900">Customer</h2>
+                <ul class="space-y-3 text-lg font-semibold">
+                    <li>Client support</li>
+                    <li>Latest news</li>
+                    <li>Company story</li>
+                    <li>Pricing packages</li>
+                    <li>Who we are</li>
+                </ul>
+            </div>
+
+            <!-- fourth items  -->
+            <div class="">
+                <h2 class="text-2xl font-bold text-slate-950">Subscribe To Newsletter</h2>
+                <p class="text-lg my-5">Enter your email address for receiving valuable newsletters.</p>
+                <div class="">
+                    <input class="bg-transparent mb-3 border-[1px] border-blue-800 px-4 py-2 rounded-md" type="text" placeholder="Youe Email">
+                    <button class="bg-white text-blue-600 px-3 py-2 rounded-md"><i class="fa-regular fa-envelope"></i></button>
+                </div>
+                <p class="text-lg text-gray-600 font-semibold">&copy; 2025 TailGrids</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
